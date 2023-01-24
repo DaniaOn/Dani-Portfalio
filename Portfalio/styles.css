@@ -1,0 +1,174 @@
+* header{
+    background-color: #4a5376;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+text-decoration: none;
+}
+
+.hero{
+    height: 50vh;
+    width: 100%;
+    background-image: url(../Portfalio/assets/Background-2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.logo{
+    color: #dae0f5;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+nav ul li a{
+    color: #dae0f5;
+    text-decoration:none ;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+
+nav ul li a:hover{
+    color: #1722a4be;
+    transition: 0ms;
+}
+
+.content{
+    position:sticky;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: #f6f7fb;
+    margin: 20px 0px 20px;
+    font-size: 85px;
+}
+
+h3{
+    color: #040d31;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+h4{
+    color: #040d31;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+
+.about-text h2{
+    color: #0b0b3b;
+    font-size: 35px;
+    margin: 35px;
+    text-transform: capitalize;
+    text-decoration:underline ;
+}
+
+.work{
+    padding: 100px 84px;
+    background-color: #f4f6fb;
+    height: 800px;
+}
+
+.work h2{
+    text-align: center;
+    font-size: 35px;
+    color: #0b0b3b;
+}
+.work p{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+}
+.work .contant{
+   padding: 20px 0px;
+   display: flex;
+}
+
+.work .contant .box{
+    padding: 10px 20px;
+    height: 290px;
+    width: 390px;
+    border: 1px solid #4a5376;
+    margin-left: 10px;
+ }
+ 
+.img{
+    display: flex;
+    justify-items: center;
+}
+
+ .work .contant .p{
+    padding: 10px 20px;
+    height: 290px;
+    width: 390px;
+    border: 1px solid #4a5376;
+    margin-left: 10px;
+ }
+/* .hero{
+    background-color: #0b0b3b;
+    color:#dae0f5;
+    font-size: 30px;
+    lighting-color: #dae0f5;
+
+} */
+
+footer{
+    height:100px;
+    background-color: #060635be;
+    text-align: center;
+    color: #dae0f5;
+    font-style: inherit;
+    text-decoration: none;
+}
+
+/* h1{
+    font-size: 85px;
+    color: #0b0b3b;
+    text-align: left;
+} */
